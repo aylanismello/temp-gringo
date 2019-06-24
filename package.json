@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "disqus-react": "^1.0.5",
     "gatsby": "^2.10.2",
     "gatsby-image": "^2.2.3",
     "gatsby-link": "^2.2.0",
