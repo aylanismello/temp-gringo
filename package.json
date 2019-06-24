@@ -1,0 +1,31 @@
+{
+  "name": "gringo-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.10.2",
+    "gatsby-image": "^2.2.3",
+    "gatsby-link": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-plugin-styled-components": "^3.1.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-images": "^3.1.0",
+    "gatsby-source-contentful": "^2.1.2",
+    "gatsby-transformer-remark": "^2.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.3.2",
+    "styled-normalize": "^8.0.6"
+  },
+  "scripts": {
+    "develop": "DEPLOY_ENV=lbn_published_production gatsby develop",
+    "dev": "npm run develop",
+    "build": "gatsby build",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  }
+}
